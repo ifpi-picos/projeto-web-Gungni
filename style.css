@@ -153,3 +153,27 @@ footer {
     padding: 2%;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container input[type="search"] {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content .books .book {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
