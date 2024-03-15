@@ -93,6 +93,12 @@ footer {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'MinhaFonteWeb';
+    src: url('/minhafonteweb.woff2') format('woff2');
+    font-display: swap;
+  }
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
