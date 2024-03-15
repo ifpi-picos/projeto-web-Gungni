@@ -46,6 +46,7 @@ main {
 
 .book-details img {
     max-width: 100%;
+    min-width: 100%;
 }
 
 .book-details p {
