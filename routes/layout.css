@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, #logo {
+    background: #007BFF;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-container input[type="search"] {
+    padding: 5px;
+    width: 100%; 
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding: 2%;
+    gap: 2%;
+}
+
+.content {
+    width: 95%;
+    background: #EEEEEE;
+    flex-grow: 2;
+    padding: 2%;
+}
+
+.book-details {
+    max-width: 40%;
+}
+
+.book-details img {
+    max-width: 100%;
+}
+
+.book-details p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.synopsis {
+    flex-grow: 1;
+    background-color: #f2f2f2;
+    padding: 2%;
+}
+
+.synopsis h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.synopsis p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.synopsis button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container input[type="search"] {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .book-details, .synopsis {
+        max-width: 100%;
+    }
+
+}
