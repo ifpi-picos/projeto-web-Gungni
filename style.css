@@ -11,9 +11,13 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 header, #logo {
-    background: #007BFF;
-    color: white;
+    background: #2E8B57;
+    color: #000000;
     padding: 1%;
     text-align: center;
     display: flex;
@@ -26,13 +30,6 @@ header, #logo {
     width: 100%; 
 }
 
-.subheader {
-    background-color: #f2f2f2;
-    padding: 2%;
-    text-align: center;
-    border-bottom: 2px solid #007BFF;
-}
-
 main {
     display: flex;
     flex-grow: 1;
@@ -42,7 +39,7 @@ main {
 
 .content {
     width: 95%;
-    background: #EEEEEE;
+    background: #98FB98;
     flex-grow: 2;
     padding: 2%;
 }
@@ -59,8 +56,8 @@ main {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #333;
-    border: 1px solid #CCCCCC;
+    color: #000000;
+    border: 1px solid #2E8B57;
     padding: 10px;
     min-width: 180px;
     max-width: 220px; 
@@ -68,7 +65,7 @@ main {
 
 .content .book img {
     width: 100%;
-    height: auto;
+    height: 90%;
     margin-bottom: 10px; 
 }
 
@@ -76,7 +73,6 @@ main {
     text-align: center;
     font-size: smaller;
 }
-
 
 .asides {
     display: flex;
@@ -86,7 +82,7 @@ main {
 }
 
 .sidebar-top, .sidebar-bottom {
-    background: #CCCCCC;
+    background: #98FB98;
     padding: 2%;
 }
 
@@ -98,6 +94,8 @@ main {
 .sidebar-top .book-ranking li {
     display: flex;
     align-items: center;
+    border: 1px solid #2E8B57;
+    background: #98FB98;
     margin-bottom: 20px;
 }
 
@@ -123,7 +121,7 @@ main {
 .sidebar-bottom .category-list li a {
     display: block;
     background-color: #CCCCCC;
-    color: #333;
+    color: #000000;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -131,12 +129,12 @@ main {
 }
 
 .sidebar-bottom .category-list li a:hover {
-    background-color: #BBBBBB; 
+    background-color: #2E8B57; 
 }
 
 footer {
-    background: #007BFF;
-    color: white;
+    background: #2E8B57;
+    color: 000000;
     padding: 2%;
     text-align: center;
 }

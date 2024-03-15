@@ -11,9 +11,13 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 header, #logo {
-    background: #007BFF;
-    color: white;
+    background: #2E8B57;
+    color: #000000;
     padding: 1%;
     text-align: center;
     display: flex;
@@ -35,7 +39,7 @@ main {
 
 .content {
     width: 95%;
-    background: #EEEEEE;
+    background: #98FB98;
     flex-grow: 2;
     padding: 2%;
 }
@@ -57,7 +61,7 @@ main {
 
 .synopsis {
     flex-grow: 1;
-    background-color: #f2f2f2;
+    background-color: #98FB98;
     padding: 2%;
 }
 
@@ -73,13 +77,18 @@ main {
 }
 
 .synopsis button {
+    background-color: #2E8B57;
+    
     padding: 10px 20px;
     font-size: 1.2em;
 }
+.synopsis button:hover {
+    background-color: gray;
+}
 
 footer {
-    background: #007BFF;
-    color: white;
+    background: #2E8B57;
+    color: #000000;
     padding: 2%;
     text-align: center;
 }
