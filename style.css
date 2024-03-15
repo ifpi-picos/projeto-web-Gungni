@@ -66,6 +66,8 @@ main {
 .content .book img {
     width: 100%;
     height: auto;
+    max-width: 600px;
+    max-height: 600px;
     margin-bottom: 10px; 
 }
 
@@ -138,12 +140,6 @@ footer {
     padding: 2%;
     text-align: center;
 }
-
-@font-face {
-    font-family: 'MinhaFonteWeb';
-    src: url('/minhafonteweb.woff2') format('woff2');
-    font-display: swap;
-  }
 
 @media screen and (max-width: 768px) {
     header {
